@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[E-book] O novo RH - RH Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .background {
+            background-color: #8F50EA;
+            background-image: url(https://www.rhportal.com.br/wp-content/uploads/o-novo-rh-background-1-scaled.webp);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .title {
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            text-align: left;
+            font-weight: 500;
+            font-size: 70px;
+        }
+
+        .text {
+            text-align: left;
+            color: #FFFFFF;
+            font-family: "Montserrat", sans-serif;
+            font-size: 15px;
+            font-weight: 100;
+            line-height: 18px;
+        }
+
+        .formulario {
+            margin: 20px;
+            padding: 20px;
+            background-color: #221440DB;
+            border-radius: 10px;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            background-color: #9050eae3;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        .elementor-social-icons-wrapper {
+            margin-top: 10px;
+        }
+
+        .elementor-social-icon {
+            margin-right: 10px;
+        }
+  
+       /* Aqui é onde eu fiz as imagens se mexer usando html*/
+     
+        #imagem1:hover{
+            position: relative;
+            animation: mymove 2s infinite;
+        }
+       
+        
+        @keyframes mymove {
+            0%   {bottom: 0px;}
+            50%  {bottom: 20px;}
+            100% {bottom: 0px;}
+        }
+
+       
+</style>
+</head>
+<link rel="shortcut icon" href="Html/Css/solides.png" type="image/x-icon">
+<body class="background">
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-6">
+                <a href="https://www.rhportal.com.br/">
+                    <img decoding="async" width="200" id="imagem1" src="https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06-600x175.png" class="elementor-animation-shrink attachment-medium size-medium wp-image-667034" alt="rhportal-logo-branca" loading="lazy" srcset="https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06-600x175.png 600w, https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06-1024x299.png 1024w, https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06-768x224.png 768w, https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06-1536x448.png 1536w, https://www.rhportal.com.br/wp-content/uploads/rhportal-logos2022-06.png 2035w" sizes="(max-width: 600px) 100vw, 300px">
+                </a>
+               
+                <h1 class="title">O NOVO RH</h1>
+                <p class="text">O RH passou por uma profunda transformação nos últimos anos, saindo dos bastidores para o holofote, tornando-se protagonista dentro das organizações.</p>
+                <p class="text">O que é esperado desse novo profissional? Baixe o e-book O Novo RH e descubra.</p>
+                <br>
+                <img decoding="async" width="550" id="imagem1" src="https://www.rhportal.com.br/wp-content/uploads/mockup-o-novo-rh-3.webp">
+            </div>
+            <div class="col-5">
+                <div class="formulario">
+                    <form action="" method="POST">
+                        <br><input class="form-control" type="text" name="Nome" id="nome" placeholder="Nome*" required>
+                        <br><input class="form-control" type="text" name="Telefone" id="telefone" placeholder="Telefone*" required>
+                        <br><input class="form-control" type="text" name="E-mail" id="email" placeholder="E-mail*" required>
+                        <br><select class="form-control" name="Cargo" id="cargo" required>
+                            <option disabled selected>Selecione sua área de atuação/cargo*</option>
+                            <option>Proprietário/Diretor</option>
+                            <option>Recursos Humanos</option>
+                            <option>Departamento Pessoal</option>
+                            <option>Administrativo/Financeiro</option>
+                            <option>Jurídico</option>
+                            <option>Tecnologia</option>
+                            <option>Operação</option>
+                            <option>Contabilidade</option>
+                            <option>Outros</option>
+                        </select>
+                        <br>
+                        <select class="form-control" name="Faixa_de_colaborador" id="faixa_de_colaborador" required>
+                            <option disabled selected>Faixa de colaboradores*</option>
+                            <option>Até 9 funcionários</option>
+                            <option>De 10 a 29 funcionários</option>
+                            <option>De 30 a 49 funcionários</option>
+                            <option>De 50 a 99 funcionários</option>
+                            <option>De 100 a 199 funcionários</option>
+                            <option>De 200 a 499 funcionários</option>
+                            <option>De 500 a 999 funcionários</option>
+                            <option>De 1000 a 1499 funcionários</option>
+                            <option>1500 funcionários ou mais</option>
+                        </select>
+                        <p class="text1">Ao enviar este formulário, declaro que li e aceito a <a href="https://solides.com.br/politica-de-privacidade/?__hstc=68844302.406d5b35c9c911eb4454c5d9087d0ff4.1687819629856.1687819629856.1687824246196.2&amp;__hssc=68844302.2.1687824246196&amp;__hsfp=3074800436" target="_blank" rel="nofollow">Política de Privacidade.</a></p>
+                        <br>
+                        <div class="actions">
+                            <input type="submit" class="btn btn-info" value="ENVIAR">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="elementor-widget-container">
+            <header>
+                <div class="elementor-social-icons-wrapper elementor-grid">
+                    <a id="insta" class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-cdbc641" href="https://www.instagram.com/rh_portal/" target="_blank" rel="noopener">
+                        <picture>
+                            <img src="Html/Css/instagram.png" alt="Instagram Logo" class="logo-container">
+                        </picture>
+                    </a>
+                    <a id="linkedin" class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-0f3ea9f" href="https://www.linkedin.com/company/rh-portal/" target="_blank" rel="noopener">
+                        <picture>
+                            <img src="Html/Css/linkedin-logo.png" alt="LinkedIn Logo">
+                        </picture>
+                    </a>
+                    <a id="tiktok" class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-animation-grow elementor-repeater-item-482fae7" href="https://www.tiktok.com/@rh_portal" target="_blank" rel="noopener">
+                        <picture>
+                            <img src="Html/Css/music-file.png" alt="TikTok Logo">
+                        </picture>
+                    </a>
+                    <a id="face" class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-313f755" href="https://www.facebook.com/solides.rhportal" target="_blank" rel="noopener">
+                        <picture>
+                            <img src="Html/Css/facebook.png" alt="Facebook Logo">
+                        </picture>
+                    </a>
+                    <a id="youtube" class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-af18eee" href="https://www.youtube.com/c/RhportalBr" target="_blank" rel="noopener">
+                        <picture>
+                            <img src="Html/Css/social.png" alt="YouTube Logo">
+                        </picture>
+                    </a>
+                    <a id="telegram" class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-animation-grow elementor-repeater-item-8fee7fe" href="https://t.me/rhportal" target="_blank">
+                        <picture>
+                            <img src="Html/Css/compass.png" alt="Telegram Logo">
+                        </picture>
+                    </a>
+                    <a id="zap" class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-animation-grow elementor-repeater-item-85aa902 broken_link" href="https://www.rhportal.com.br/comunidade-rh-portal/" target="_blank">
+                        <picture>
+                            <img src="Html/Css/whatsapp (2).png" alt="WhatsApp Logo">
+                        </picture>
+                    </a>
+                </div>
+            </header>
+        </div>
+    </div>
+</body>
+
+<style>
+    .background {
+        background-color: #8F50EA;
+        background-image: url(https://www.rhportal.com.br/wp-content/uploads/o-novo-rh-background-1-scaled.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        font-weight: 500;
+        font-size: 70px;
+    }
+
+    .text {
+        text-align: flex;
+        color: #FFFFFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+
+    .text1 {
+        text-align: center;
+        color: #FFFFFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+    
+    .formulario {
+        margin: 30px;
+        padding: 35px;
+        background-color: #221440DB;
+        border-radius: 16px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: #9050eae3;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .elementor-social-icons-wrapper {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .elementor-social-icon {
+        margin-right: 10px;
+    }
+</style>
+</html>
